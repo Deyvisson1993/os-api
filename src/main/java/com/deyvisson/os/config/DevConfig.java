@@ -21,7 +21,7 @@ public class DevConfig {
 	@Bean
 	public boolean instacidDB() {
 
-		if (ddl.equals("create")) {
+		if (ddl.equals("none")) {
 			this.dbService.instaciaDB();
 		}
 		return false;
