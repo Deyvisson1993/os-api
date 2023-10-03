@@ -66,7 +66,7 @@ public class OsService {
 		newOBJ.setCliente(cli);
 		newOBJ.setTenico(tec);
 		
-		if(newOBJ.getStatus().getCod().equals(2));{
+		if(newOBJ.getStatus().getCod().equals(2)){
 			newOBJ.setDataFechamento(LocalDateTime.now());
 		}
 

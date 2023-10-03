@@ -25,6 +25,7 @@ public class OS {
 	private LocalDateTime dataAbertura;
 	@JsonFormat(pattern = "dd/MM/yyyy HH:mm")
 	private LocalDateTime dataFechamento;
+	
 	private Integer prioridade;
 	private String obs;
 	private Integer status;
